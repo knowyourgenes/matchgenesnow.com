@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* ============================================================
+   MATCHGENESNOW.COM · Tailwind v4 theme tokens
+   All page styling is done via Tailwind utility classes in JSX.
+   This file only registers the palette + fonts as theme variables.
+   ============================================================ */
+@theme {
+  --color-paper: #fafaf7;
+  --color-paper-2: #f3f1ea;
+  --color-paper-3: #e6e3d8;
+  --color-ink: #161513;
+  --color-ink-2: #322f29;
+  --color-ink-3: #57534b;
+  --color-ink-4: #8a8478;
+  --color-rule: rgba(22, 21, 19, 0.1);
+  --color-rule-strong: rgba(22, 21, 19, 0.2);
+  --color-accent: #b4351c;
+  --color-accent-soft: #f3d8cf;
+  --color-accent-deep: #7c2010;
+  --color-marker: #f0c243;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-lora), Georgia, serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  --container-page: 1350px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

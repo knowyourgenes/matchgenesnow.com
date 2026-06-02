@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect x="0" y="2" width="28" height="28" rx="5" fill="#161513"/>
+  <text x="14" y="22" font-family="Lora, Georgia, 'Times New Roman', serif" font-weight="600" font-size="18" text-anchor="middle" fill="#fafaf7">m</text>
+  <circle cx="28" cy="4" r="4" fill="#b4351c"/>
+</svg>
