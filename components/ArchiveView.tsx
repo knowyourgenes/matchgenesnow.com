@@ -24,7 +24,7 @@ export default function ArchiveView({
       <SiteNav />
 
       <section className="border-b border-rule bg-paper">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pt-16 pb-10 text-center">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 pt-16 pb-10 text-center">
           <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-accent">
             Archive
           </div>
@@ -41,7 +41,7 @@ export default function ArchiveView({
       </section>
 
       <section className="border-b border-rule bg-paper-2/40">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-6">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-6">
           <div className="flex flex-wrap items-center gap-2">
             <Link
               href="/archive"
@@ -71,7 +71,7 @@ export default function ArchiveView({
       </section>
 
       <section className="bg-paper">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-16">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-16">
           <div className="mb-6 flex items-center justify-between font-mono text-[11px] uppercase tracking-[0.18em] text-ink-3">
             <span>
               {entries.length} {entries.length === 1 ? "entry" : "entries"}

@@ -4,7 +4,7 @@ import type { HomepageContent } from "../sanity/fetch";
 export default function SiteFooter({ homepage }: { homepage: HomepageContent }) {
   return (
     <footer className="border-t border-rule bg-paper-2/60">
-      <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pb-10 pt-14">
+      <div className="mx-auto w-full max-w-page px-4 sm:px-7 pb-10 pt-14">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">

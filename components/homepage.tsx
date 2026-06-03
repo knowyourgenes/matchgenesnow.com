@@ -33,13 +33,13 @@ export default function Homepage({
 
       {/* HERO */}
       <section className="border-b border-rule bg-paper">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pt-20 pb-14">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 pt-20 pb-14">
           <div className="flex flex-col items-start gap-3">
             <div className="inline-flex items-center gap-2 rounded-full border border-rule bg-paper-2 px-3 py-1 font-mono text-[10.5px] uppercase tracking-[0.18em] text-ink-3">
               <span className="inline-block h-2 w-2 rounded-full bg-accent" />
               {homepage.heroEyebrow}
             </div>
-            <h1 className="font-serif text-[clamp(30px,8vw,80px)] leading-[1.05] tracking-[-0.025em] text-ink wrap-break-word">
+            <h1 className="font-serif text-[clamp(30px,8vw,80px)] leading-[1.05] tracking-tight text-ink wrap-break-word">
               {homepage.heroHeadline}
             </h1>
             <p className="max-w-3xl text-[18px] leading-8 text-ink-3">{homepage.heroSubhead}</p>
@@ -74,7 +74,7 @@ export default function Homepage({
 
       {/* SECTION CHIPS */}
       <section className="border-b border-rule bg-paper-2/40">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-6">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-6">
           <div className="flex flex-wrap items-center gap-2">
             <span className="mr-2 font-mono text-[10.5px] uppercase tracking-[0.18em] text-ink-4">
               Sections ·
@@ -94,7 +94,7 @@ export default function Homepage({
 
       {/* THIS WEEK'S ROUNDUP */}
       <section id="this-week" className="border-b border-rule bg-paper">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-20">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-20">
           <div className="mb-10 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <div className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-accent">
@@ -125,7 +125,7 @@ export default function Homepage({
                 </div>
                 <Link
                   href={`/news/${r.slug}`}
-                  className="font-serif text-[22px] leading-[1.25] tracking-[-0.01em] text-ink transition-colors hover:text-accent sm:text-[24px]"
+                  className="font-serif text-[22px] leading-tight tracking-[-0.01em] text-ink transition-colors hover:text-accent sm:text-[24px]"
                 >
                   {r.title}
                 </Link>
@@ -163,7 +163,7 @@ export default function Homepage({
 
       {/* HOW THIS WORKS */}
       <section id="how-this-works" className="border-b border-rule bg-paper-2/50">
-        <div className="mx-auto grid w-full max-w-[1350px] gap-10 px-4 sm:px-7 py-16 md:grid-cols-[1fr_2fr]">
+        <div className="mx-auto grid w-full max-w-page gap-10 px-4 sm:px-7 py-16 md:grid-cols-[1fr_2fr]">
           <div>
             <div className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-accent">
               How this works
@@ -181,7 +181,7 @@ export default function Homepage({
       {/* EDITOR'S PICK */}
       {featuredPick ? (
         <section id="editors-pick" className="border-b border-rule bg-paper">
-          <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-20">
+          <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-20">
             <div className="mb-10 flex items-center gap-3">
               <span className="inline-flex items-center gap-2 rounded-full bg-accent px-3 py-1 font-mono text-[10.5px] uppercase tracking-[0.18em] text-paper">
                 <span className="inline-block h-1.5 w-1.5 rounded-full bg-marker" />
@@ -266,7 +266,7 @@ export default function Homepage({
 
       {/* ARCHIVE PREVIEW */}
       <section className="border-b border-rule bg-paper">
-        <div className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 py-20">
+        <div className="mx-auto w-full max-w-page px-4 sm:px-7 py-20">
           <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <div className="font-mono text-[10.5px] uppercase tracking-[0.2em] text-accent">
@@ -331,7 +331,7 @@ export default function Homepage({
 
       {/* NEWSLETTER */}
       <section id="newsletter" className="bg-paper-2/60">
-        <div className="mx-auto w-full max-w-[760px] px-4 sm:px-7 py-24 text-center">
+        <div className="mx-auto w-full max-w-190 px-4 sm:px-7 py-24 text-center">
           <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-ink text-paper">
             <span aria-hidden>✉</span>
           </div>

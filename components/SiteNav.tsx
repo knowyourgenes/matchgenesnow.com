@@ -10,7 +10,7 @@ const NAV_LINKS: { label: string; href: string }[] = [
 export default function SiteNav() {
   return (
     <header className="sticky top-0 z-40 border-b border-rule bg-paper/85 backdrop-blur-md">
-      <div className="mx-auto flex w-full max-w-[1350px] items-center justify-between gap-3 px-4 py-4 sm:gap-6 sm:px-7">
+      <div className="mx-auto flex w-full max-w-page items-center justify-between gap-3 px-4 py-4 sm:gap-6 sm:px-7">
         <Link href="/" aria-label="matchgenesnow.com" className="flex items-center gap-3">
           <span className="relative inline-flex h-9 w-9 items-center justify-center rounded-md bg-ink">
             <span className="font-serif text-lg font-semibold text-paper">m</span>

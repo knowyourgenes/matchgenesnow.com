@@ -15,7 +15,7 @@ export default function NewsItemView({
     <>
       <SiteNav />
 
-      <article className="mx-auto w-full max-w-[1350px] px-4 sm:px-7 pt-16 pb-24">
+      <article className="mx-auto w-full max-w-page px-4 sm:px-7 pt-16 pb-24">
         <div className="mb-8 flex flex-wrap items-center gap-3 font-mono text-[11px] uppercase tracking-[0.16em] text-ink-3">
           <Link href="/" className="transition-colors hover:text-accent">
             ← Back to this week
@@ -95,7 +95,7 @@ export default function NewsItemView({
                   <div className="font-mono text-[10.5px] uppercase tracking-[0.16em] text-accent-deep">
                     {categoryLabel(r.category)} · {weekLabel(r.week)}
                   </div>
-                  <div className="font-serif text-[18px] leading-[1.25] text-ink transition-colors group-hover:text-accent">
+                  <div className="font-serif text-[18px] leading-tight text-ink transition-colors group-hover:text-accent">
                     {r.title}
                   </div>
                 </Link>
