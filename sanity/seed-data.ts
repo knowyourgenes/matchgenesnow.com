@@ -184,6 +184,37 @@ export const roundupItems: SeedRoundupItem[] = [
 
 export const editorsPicks: SeedEditorsPick[] = [
   {
+    slug: "standard-health-ranges-south-asian-bodies",
+    title: "Why 'standard' health ranges may not fit the body in front of them",
+    deck: "Plain-language genetics news, with the India angle global coverage usually misses. A quiet assumption sits underneath most routine health advice: that the reference ranges, the risk calculators, and the dietary guidelines printed in clinics apply equally to everyone reading them. A steadily growing body of research keeps puncturing that assumption.",
+    body: [
+      "A quiet assumption sits underneath most routine health advice: that the reference ranges, the risk calculators, and the dietary guidelines printed in clinics apply equally to everyone reading them. A steadily growing body of research keeps puncturing that assumption, and the people most affected are often the very ones the original tools were never built around in the first place.",
+      "The story",
+      "Many of the medical reference points used worldwide, from cardiovascular risk calculators to body-weight thresholds, were developed and validated largely on European-ancestry populations. When those same tools are applied unchanged to South Asian bodies, they can misjudge risk, and sometimes they misjudge it badly. Research has consistently shown, for example, that South Asians tend to develop cardiovascular disease and type 2 diabetes earlier, and at lower body weights, than the populations many standard thresholds were calibrated on. The tool gives a confident answer. The answer is just calibrated for a different body.",
+      "Why it matters",
+      "This is the difference between a result that genuinely applies to you and one that quietly does not, dressed up in the same official-looking number. A South Asian adult sitting comfortably at a 'normal' body-weight figure on a Western-derived chart may already be carrying the visceral fat pattern that drives metabolic risk in this population, the so-called thin-fat phenotype, where the weight looks fine but the fat is stored in the places that cause the most harm. A standard cardiovascular risk calculator may reassure someone whose real risk is arriving a full decade ahead of the schedule the calculator assumes. The tool is not broken. It was simply built for a different reference body, and used outside that context, a confident number can mislead more effectively than no number at all.",
+      "The same logic runs straight through consumer genetics. Polygenic risk scores and many direct-to-consumer DNA tests were trained predominantly on European data, which means their accuracy drops when they are applied to underrepresented populations, including Indians. A risk estimate calibrated on the wrong reference group is not a precise verdict. It is, at best, an educated guess wearing a very confident decimal point. Reading it as gospel is exactly the mistake the science is warning against.",
+      "The shift underway",
+      "This is precisely why national efforts to catalogue Indian genetic diversity matter so much, and why this newsroom keeps returning to them. As Indian reference data grows, the tools built on it become measurably more accurate for Indian bodies, which is the entire point of the exercise. The correct response to a tool built on the wrong population is not to throw it away, but to rebuild it on the right one, and that rebuilding is actively happening across genomics right now. The gap is real, it is documented, and it is slowly closing rather than being ignored.",
+      "What a reader should take from this",
+      "Two practical things, and they are both things you can act on. First, if you are South Asian, it can be entirely reasonable to ask your doctor whether a particular threshold or risk score was validated for your population, and whether earlier or additional screening makes sense given the well-documented earlier onset of metabolic and cardiac conditions in South Asians. That is not being difficult. That is asking the tool to show its working. Second, treat any genetic risk result with appropriate humility about which reference data sits behind it. A number is only ever as trustworthy as the population it was calibrated on, and right now, for a great many tools, that population was not yours.",
+      "The honest summary is this: the standard ranges are a starting point for a conversation, not a personalised verdict handed down from on high, and for a very large part of the world's population they were always a rough fit at best. The science is slowly correcting that imbalance, one reference database at a time, and that correction is one of the most quietly important stories in genetics today.",
+      "Quick FAQ",
+      "Are Western health ranges simply wrong for Indians? Not wrong, but often miscalibrated. Several thresholds were validated on other populations and can misjudge risk when applied unchanged.",
+      "Should South Asians get screened earlier? Many specialists argue yes for metabolic and cardiac risk, given the documented earlier onset. Discuss appropriate timing with your doctor.",
+      "Do consumer DNA tests work less well for Indians? Often, yes, because the reference databases skewed heavily European. Accuracy is steadily improving as Indian genomic data grows.",
+      "What can I actually do about this now? Ask whether a threshold was validated for your population, consider earlier screening, and read genetic risk results with healthy caution.",
+      "Every claim linked to its source · No hype, no miracle cures · India-aware · Free, always",
+    ],
+    sources: [
+      "Research on South Asian cardiovascular and diabetes onset",
+      "Reviews of polygenic risk score performance across ancestries",
+      "Coverage of national genomic diversity initiatives",
+    ],
+    week: "this-week",
+    publishedAt: weeksAgo(0),
+  },
+  {
     slug: "why-your-genetic-test-result-can-change",
     title: "Why your genetic test result can change without your DNA changing",
     deck: "A reader wrote in confused. Three years ago their ancestry report said one thing. This year, same saliva, same company, it says something noticeably different. Did the lab make a mistake? Did their DNA somehow change? Neither. What changed was everything around the DNA.",
